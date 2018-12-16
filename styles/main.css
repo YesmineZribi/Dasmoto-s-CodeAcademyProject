@@ -1,0 +1,88 @@
+body {
+	background-image: url("https://img.freepik.com/free-photo/vintage-wallpaper-background_53876-31379.jpg?size=338&ext=jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+header {
+	color: #542a07;
+}
+
+header nav {
+	display: flex;
+	justify-content: flex-end;
+
+}
+
+nav p {
+	cursor: pointer;
+}
+
+
+.white-pill, .black-pill {
+	border: 0.5px solid;
+	border-radius: 5px;
+	text-align: center;
+}
+
+.black-pill {
+	background-color: #813a00;
+	color: white;
+}
+
+.description {
+	position: relative;
+	right: 20px;
+}
+
+
+ul {
+	list-style: none;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+
+/* -- Bootstrap override --*/
+
+header .row {
+	display: flex;
+	align-items: center;
+}
+
+.col-sm-4 p {
+	margin: 25px 20px;
+	padding: 3px;
+}
+
+
+.jumbotron {
+	display: flex;
+	align-items: center;
+	height: 400px;
+	background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-2/pattern.jpeg");
+	background-size: cover;
+	background-position: center;
+}
+
+.jumbotron h2 {
+	display: inline-block;
+	font-weight: bold;
+	
+}
+
+.jumbotron h2, .jumbotron h3 {
+	color: white;
+}
+
+
+footer .row {
+	display: flex;
+	align-items: center;
+}
+
+.col-sm-1 img {
+	min-width:32px;
+	min-height: 32px; 
+}
+
